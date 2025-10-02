@@ -373,7 +373,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1804703078109025515, guid: 332df604d1fc7fd46ae4013ce9b4a5d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1763194185}
   m_SourcePrefab: {fileID: 100100000, guid: 332df604d1fc7fd46ae4013ce9b4a5d6, type: 3}
 --- !u!1001 &585712859
 PrefabInstance:
@@ -445,8 +448,12 @@ PrefabInstance:
       value: VFX_Rain
       objectReference: {fileID: 0}
     - target: {fileID: 8379282765867188716, guid: 9483f71acb66e4a238c43f546dc9f795, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6648
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379282765867188716, guid: 9483f71acb66e4a238c43f546dc9f795, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.3825645
+      value: 7.95
       objectReference: {fileID: 0}
     - target: {fileID: 8379282765867188716, guid: 9483f71acb66e4a238c43f546dc9f795, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1596,6 +1603,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2539668621424575346, guid: 11df39673429a452dbbcbc5da55020d6, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539668621424575346, guid: 11df39673429a452dbbcbc5da55020d6, type: 3}
       propertyPath: m_Name
       value: Remaining_Collectibles_UI
       objectReference: {fileID: 0}
@@ -2333,6 +2344,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1763194184 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1804703078109025515, guid: 332df604d1fc7fd46ae4013ce9b4a5d6, type: 3}
+  m_PrefabInstance: {fileID: 572651732}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1763194185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763194184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea87e2f1075ae9b4a93476bf4f07203f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ExampleScript
 --- !u!1001 &1859112665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2509,7 +2537,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.15564343, y: -3.97, z: 4.0353847}
+  m_Size: {x: 0.15564343, y: 0, z: 4.0353847}
   m_Center: {x: -1.9180392, y: 0, z: 1.9894083}
 --- !u!65 &2127103715
 BoxCollider:
@@ -3087,7 +3115,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 73
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &2843666555842095712
 GameObject:
