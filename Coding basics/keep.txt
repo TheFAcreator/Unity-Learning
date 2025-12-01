@@ -1,0 +1,4 @@
+This file is created only to serve the purpose of maintaining the correct folder structure of the current folder - Coding Basics.
+
+Here's some FA:
+"C:\Users\User\Pictures\IMG_20231020_073407.jpg"
