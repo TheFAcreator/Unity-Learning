@@ -1,42 +1,18 @@
 This file is created only to serve the purpose of maintaining the correct folder structure of the current folder - Coding Basics.
 
 Here's some FA:
-яШяб јExif  II*                V       ^   (              i‡    f       `      `        ђ     0210‘             0100     яя       3       Е      яб
-нhttp://ns.adobe.com/xap/1.0/ <?xpacket begin='п»ї' id='W5M0MpCehiHzreSzNTczkc9d'?>
-<x:xmpmeta xmlns:x='adobe:ns:meta/'>
-<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
-
- <rdf:Description rdf:about=''
-  xmlns:Attrib='http://ns.attribution.com/ads/1.0/'>
-  <Attrib:Ads>
-   <rdf:Seq>
-    <rdf:li rdf:parseType='Resource'>
-     <Attrib:Created>2024-03-26</Attrib:Created>
-     <Attrib:ExtId>6cc5aed1-6ec0-4a06-8450-a07b89505a5c</Attrib:ExtId>
-     <Attrib:FbId>525265914179580</Attrib:FbId>
-     <Attrib:TouchType>2</Attrib:TouchType>
-    </rdf:li>
-   </rdf:Seq>
-  </Attrib:Ads>
- </rdf:Description>
-
- <rdf:Description rdf:about=''
-  xmlns:dc='http://purl.org/dc/elements/1.1/'>
-  <dc:title>
-   <rdf:Alt>
-    <rdf:li xml:lang='x-default'>Flower paradise - 1</rdf:li>
-   </rdf:Alt>
-  </dc:title>
- </rdf:Description>
-
- <rdf:Description rdf:about=''
-  xmlns:pdf='http://ns.adobe.com/pdf/1.3/'>
-  <pdf:Author>Boris</pdf:Author>
- </rdf:Description>
-
- <rdf:Description rdf:about=''
-  xmlns:xmp='http://ns.adobe.com/xap/1.0/'>
-  <xmp:CreatorTool>Canva</xmp:CreatorTool>
- </rdf:Description>
-</rdf:RDF>
-</x:xmpmeta>
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
