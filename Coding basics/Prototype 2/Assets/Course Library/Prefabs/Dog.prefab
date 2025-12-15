@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: 1390087603556521625}
   - component: {fileID: 8885324523479833833}
   - component: {fileID: 4680481393501019723}
+  - component: {fileID: 1208391673627559621}
   m_Layer: 0
   m_Name: Dog
   m_TagString: Untagged
@@ -180,6 +181,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fad4b31b6e66f4844920db226bd6a1d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyAfterLimit
+--- !u!65 &1208391673627559621
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93137155655837990}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.14671743, y: 0.24960087, z: 0.22433764}
+  m_Center: {x: 0.007989145, y: 0.10145089, z: -0.025500927}
 --- !u!1 &106382294792181399
 GameObject:
   m_ObjectHideFlags: 0

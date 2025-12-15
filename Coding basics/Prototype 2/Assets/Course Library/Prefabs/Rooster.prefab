@@ -855,6 +855,7 @@ GameObject:
   - component: {fileID: 6269369703048542179}
   - component: {fileID: 7344054583746616119}
   - component: {fileID: 2677001114301058308}
+  - component: {fileID: 7140562166572186554}
   m_Layer: 0
   m_Name: Rooster
   m_TagString: Untagged
@@ -932,6 +933,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fad4b31b6e66f4844920db226bd6a1d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyAfterLimit
+--- !u!65 &7140562166572186554
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6348441323523230583}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.221482, y: 21.202486, z: 15.477384}
+  m_Center: {x: -0.11074145, y: 9.005157, z: -3.1166584}
 --- !u!1 &6642194889301923724
 GameObject:
   m_ObjectHideFlags: 0

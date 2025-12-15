@@ -8,7 +8,7 @@ public class DestroyAfterLimit : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -21,6 +21,8 @@ public class DestroyAfterLimit : MonoBehaviour
         else if (transform.position.z <= zLimitLow)
         {
             Destroy(gameObject);
+
+            Debug.Log("Game Over!");
         }
     }
 }
