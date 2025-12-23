@@ -14,7 +14,7 @@ public class Spawning : MonoBehaviour
     void Update()
     {
         int animalIndex = Random.Range(0, animals.Length);
-        int spawnChance = Random.Range(0, 1000);
+        int spawnChance = Random.Range(0, 300);
         int spawnPositionX = Random.Range(-20, 20);
 
         if (spawnChance < 1)

@@ -2,21 +2,20 @@ using UnityEngine;
 
 public class CollisionDetection : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    private GameObject animal;
 
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
-        Destroy(other.gameObject);
+        //if (other.gameObject.CompareTag("Animal"))
+        //{
+        //    Destroy(gameObject);
+        //    Destroy(other.gameObject);
+        //}
+        if (other.gameObject.CompareTag("Animal"))
+        {
+            Destroy(gameObject);
+            animal = other.gameObject;
+            animal.GetComponent<AnimalHunger>().Feed(20f);
+        }
     }
 }

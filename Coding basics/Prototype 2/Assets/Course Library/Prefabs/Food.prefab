@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 5653889539522631316}
   - component: {fileID: 913792952094074247}
   - component: {fileID: 5218519058016532288}
-  - component: {fileID: -7815551578632519042}
   - component: {fileID: 2064283030436177236}
   - component: {fileID: 1644913854677026253}
   - component: {fileID: -5431667618852716149}
+  - component: {fileID: 1762485212538904068}
   m_Layer: 0
   m_Name: Food
   m_TagString: Untagged
@@ -108,18 +108,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
   speed: 50
---- !u!114 &-7815551578632519042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8576458550020315238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fad4b31b6e66f4844920db226bd6a1d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DestroyAfterLimit
 --- !u!65 &2064283030436177236
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -180,3 +168,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1762485212538904068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8576458550020315238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1992c5d6e616c84a97cc38325d22983, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+  zLimitHigh: 30
+  zLimitLow: -18

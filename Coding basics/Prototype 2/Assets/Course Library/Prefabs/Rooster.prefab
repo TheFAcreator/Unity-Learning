@@ -854,11 +854,11 @@ GameObject:
   - component: {fileID: 7271146316059575074}
   - component: {fileID: 6269369703048542179}
   - component: {fileID: 7344054583746616119}
-  - component: {fileID: 2677001114301058308}
   - component: {fileID: 7140562166572186554}
+  - component: {fileID: -3523455203443085191}
   m_Layer: 0
   m_Name: Rooster
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -921,18 +921,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
   speed: 5
---- !u!114 &2677001114301058308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6348441323523230583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fad4b31b6e66f4844920db226bd6a1d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DestroyAfterLimit
 --- !u!65 &7140562166572186554
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -954,6 +942,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9.221482, y: 21.202486, z: 15.477384}
   m_Center: {x: -0.11074145, y: 9.005157, z: -3.1166584}
+--- !u!114 &-3523455203443085191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6348441323523230583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c8b6213b0bb73c4bb4cdd90119d112c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LowerBound
+  lowerBound: -17
 --- !u!1 &6642194889301923724
 GameObject:
   m_ObjectHideFlags: 0
