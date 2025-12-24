@@ -12,9 +12,12 @@ public class LowerBound : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.z < lowerBound)
+        if (transform.position.z < lowerBound && gameObject != null)
         {
-            Debug.Log("Game Over!");
+            if (gameObject.CompareTag("Animal"))
+            {
+                FindFirstObjectByType<GameUIManager>().RemoveHeart();
+            }
             Destroy(gameObject);
         }
     }

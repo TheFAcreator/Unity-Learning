@@ -40,7 +40,7 @@ public class AnimalRotationCenter : MonoBehaviour
             }
 
             // Only rotate the animal's Y-axis (steering)
-            animal.Rotate(0, angleThisFrame, 0, Space.World /* can be ommitted if the animal's X and Z axis are not being modified throughout its lifetime (no tilting)*/);
+            animal.Rotate(0, angleThisFrame, 0, Space.World /* can be omitted if the animal's X and Z axis are not being modified throughout its lifetime (no tilting)*/);
                 // OR Rotate around the center point - animal.RotateAround(transform.position, Vector3.up, angleThisFrame);
 
             data.remainingAngle -= angleThisFrame;
@@ -54,7 +54,7 @@ public class AnimalRotationCenter : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Animal"))
+        if (other.CompareTag("Animal") || other.CompareTag("Chick"))
         {
             Transform animal = other.transform;
 

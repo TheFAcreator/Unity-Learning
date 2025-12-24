@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1762485212538904068, guid: cdd5873e1dc4c80429fd52e947c9b26c, type: 3}
       propertyPath: zLimitHigh
-      value: 115
+      value: 140
       objectReference: {fileID: 0}
     - target: {fileID: 7838612338305756877, guid: cdd5873e1dc4c80429fd52e947c9b26c, type: 3}
       propertyPath: m_LocalScale.x

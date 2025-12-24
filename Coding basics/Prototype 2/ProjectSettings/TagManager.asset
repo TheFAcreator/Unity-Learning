@@ -6,6 +6,7 @@ TagManager:
   tags:
   - TurnZone
   - Animal
+  - Chick
   layers:
   - Default
   - TransparentFX

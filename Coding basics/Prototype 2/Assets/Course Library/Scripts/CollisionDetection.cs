@@ -6,12 +6,7 @@ public class CollisionDetection : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //if (other.gameObject.CompareTag("Animal"))
-        //{
-        //    Destroy(gameObject);
-        //    Destroy(other.gameObject);
-        //}
-        if (other.gameObject.CompareTag("Animal"))
+        if (other.gameObject.CompareTag("Animal") || other.CompareTag("Chick"))
         {
             Destroy(gameObject);
             animal = other.gameObject;

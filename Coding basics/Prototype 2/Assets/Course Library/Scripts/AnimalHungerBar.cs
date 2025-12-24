@@ -26,6 +26,7 @@ public class AnimalHunger : MonoBehaviour
 
     void LateUpdate()
     {
+        if (hungerBarInstance == null) return;
         hungerBarInstance.transform.position = uiAnchor.position;
 
         Vector3 directionToCamera = Camera.main.transform.position - hungerBarInstance.transform.position;
@@ -47,8 +48,18 @@ public class AnimalHunger : MonoBehaviour
 
         if (hunger <= minHunger)
         {
+            GameUIManager instance = FindFirstObjectByType<GameUIManager>();
+
             Destroy(gameObject);
-            Destroy(hungerBarInstance);
+            if (hungerBarInstance != null) Destroy(hungerBarInstance);
+
+            instance.AddScore(1);
+
+            if (gameObject.CompareTag("Chick"))
+            {
+                instance.AddHeart();
+                instance.AddScore(2);
+            }
         }
     }
 

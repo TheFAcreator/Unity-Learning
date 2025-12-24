@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6595394799486350054}
   - component: {fileID: 3706884325695748230}
   - component: {fileID: 7461205347704129582}
+  - component: {fileID: -5937394761259599287}
   m_Layer: 5
   m_Name: HungerBar
   m_TagString: Untagged
@@ -84,7 +85,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &7461205347704129582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,6 +103,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &-5937394761259599287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691564951985045192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c8b6213b0bb73c4bb4cdd90119d112c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LowerBound
+  lowerBound: -60
 --- !u!1 &1960138456113779916
 GameObject:
   m_ObjectHideFlags: 0
