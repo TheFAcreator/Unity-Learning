@@ -92,7 +92,9 @@ InitTestScene*.unity*
 /[Aa]ssets/AddressableAssetsData/*/*.bin*
 
 # Substance 3D plugin
-[Aa]ssets/Adobe
+[Aa]ssets/Adobe*/
+[Aa]ssets/Plugins/Adobe*/
+[Aa]ssets/Plugins/Substance*/
 
 # Visual Scripting auto-generated files
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
