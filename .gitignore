@@ -22,7 +22,7 @@ UIElementsSchema/
 /[Mm]emoryCaptures/
 
 # Recordings can get excessive in size
-/[Rr]ecordings/
+[Rr]ecordings/
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -92,7 +92,7 @@ InitTestScene*.unity*
 /[Aa]ssets/AddressableAssetsData/*/*.bin*
 
 # Substance 3D plugin
-/[Aa]ssets/Adobe
+[Aa]ssets/Adobe
 
 # Visual Scripting auto-generated files
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
