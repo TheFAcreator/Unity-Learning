@@ -96,6 +96,9 @@ InitTestScene*.unity*
 [Aa]ssets/Plugins/Adobe/
 [Aa]ssets/Plugins/Substance/
 
+/Cleanup Frenzy/Assets/Adobe/
+/Cleanup Frenzy/Assets/Adobe.meta
+
 # Visual Scripting auto-generated files
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta

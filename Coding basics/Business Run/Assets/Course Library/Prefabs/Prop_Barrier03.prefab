@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2882389109813406206}
   m_Layer: 0
   m_Name: Prop_Barrier03
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,7 +43,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3214035976085520130}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 0.7
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -61,7 +61,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!65 &2823073364891312101
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -81,8 +81,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1.910726, z: 3.4913554}
-  m_Center: {x: 0, y: 0.8184956, z: -0.099797964}
+  m_Size: {x: 0.25, y: 1.910726, z: 3.4913554}
+  m_Center: {x: 0.09, y: 0.97, z: -0.099797964}
 --- !u!114 &2882389109813406206
 MonoBehaviour:
   m_ObjectHideFlags: 0
