@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float gravityMultiplier = 1f;
+    public float gravityMultiplier = 2f;
     public ParticleSystem deathVFX;
     public ParticleSystem dirtVFX;
     public AudioClip jumpSound;
@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            _rigidbody.AddForce(Vector3.up * 3000f, ForceMode.Impulse);
+            _rigidbody.AddForce(Vector3.up * 1500f, ForceMode.Impulse);
             isGrounded = false;
             audioSource.PlayOneShot(jumpSound, 1.0f);
             playerAnim.SetTrigger("Jump_trig");
